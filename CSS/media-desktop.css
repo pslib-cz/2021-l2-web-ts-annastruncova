@@ -1,0 +1,16 @@
+@media screen and (min-width: 1200px){
+    html{
+        font-size: 1rem;
+    }
+    .figure{
+        max-width: 20vw;
+        margin: auto;
+        padding: 1rem 0;
+    }
+    .content{
+        width:70vh;
+    }
+    .footer{
+        font-size: 1rem;
+    }
+}
