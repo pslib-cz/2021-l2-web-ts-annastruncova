@@ -1,16 +1,59 @@
 @media screen and (min-width: 1200px){
     html{
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
-    .figure{
-        max-width: 20vw;
-        margin: auto;
-        padding: 1rem 0;
+    .photo{
+        width: 20%;
     }
-    .content{
-        width:70vh;
+    .paragraph{
+        width: 50%;
     }
-    .footer{
-        font-size: 1rem;
+    .tittle{
+        width: 40%;
+    }
+    /*the best off*/
+    .group{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .photonext{
+        margin: 0;
+        width: 25%;
+    }
+    
+
+    /*foto1sceny*/
+    .section__foto1sceny{
+        width: 100%;
+        
+    }
+    .foto1sceny__pictures{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 1rem;
+    }
+    .pictures__group{
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 3rem 0;
+    }
+    .pictures__group >.photo{
+        padding: 0;
+        width: 80%;
+    }
+    .pictures__group >.picture{
+        height: 4rem;
+        width: 30%;
+    }
+
+    /*zánr foto*/
+    .group--opposite{
+        display: flex;
+        flex-direction: row-reverse;
     }
 }
