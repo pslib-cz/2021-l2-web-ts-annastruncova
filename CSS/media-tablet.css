@@ -1,30 +1,23 @@
-@media screen and (min-width: 768px) {
-    html{
-        font-size: 1rem;
-    }
+@media screen and (min-width: 700px) {
+    
     .trasa__gallery{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
-    .figure{
-        max-width: 40vw;
-        margin: auto;
-        padding: 1rem 0;
-    }
-    
-    
     .trasa__gallery >*{
         flex-grow: 1;
+        width: 30%;
     }
     .paragraph{
         text-align: center;
     }
-
-    
-
-
-
-    
+    .photo{
+        width: 60%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    .menu__ul{
+        display: inherit;
+      }
 }
